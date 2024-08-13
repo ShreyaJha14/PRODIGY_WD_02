@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f2e9e4;
+    background-image:url("watchs.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 0;
+    padding-bottom: 60px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,4);
+    background: transparent;
+    backdrop-filter: blur(15px);
+
+}
+
+.timer{
+    width: 100%;
+    padding: 40px 0;
+    font-family: cursive;
+    color: rgb(61, 56, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0px -23px 25px 0px rgba(126, 107, 107, 0.15);
+}
+
+.laps{
+    text-align: center;
+    color: rgb(64, 69, 73);
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.action{
+    width: 85%;
+    margin: 60px auto 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+
+.action button{
+    padding: 10px 20px;
+    background-color: rgb(215,226,235);
+    color: rgb(125, 91, 91);
+    font-size: 0.9rem;
+    border: none;
+    font-family: cursive;
+    font-weight: 500;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px 2px rgba(56, 48, 48, 0.25);
+}
+
+button:hover{
+    background-color: #a5abea;
+    color: #ffffff;
+    padding: 7px 17px;
+    cursor: pointer;
+}
